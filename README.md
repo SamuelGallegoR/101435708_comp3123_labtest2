@@ -94,9 +94,8 @@ src/
 
 ## License 📜
 
-Beetle Labs Inc. 🪲
-Samuel Gallego Rivera.
-GreenConcepts Inc. 🍋‍🟩
+- Beetle Labs Inc. 🪲. Samuel Gallego Rivera.
+- GreenConcepts Inc. 🍋‍🟩
 
 ---
 
