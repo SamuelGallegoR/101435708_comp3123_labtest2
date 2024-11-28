@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Weather App 🌤️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple, user-friendly weather application built with **ReactJS** that allows users to view real-time weather conditions for any city. The app fetches data from the **OpenWeatherMap API** and displays essential information like temperature, weather conditions, and dynamic icons. To enhance the user experience, it also features animated avatars and a clean, responsive design.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features 🚀
 
-### `npm start`
+- **Real-Time Weather Data**: Displays current weather for any city using OpenWeatherMap API.
+- **Search Functionality**: Users can search for any city to view its weather.
+- **Dynamic Weather Avatars**: Animated avatars change based on the weather (e.g., sunny, rainy, cold).
+- **Country Display**: Shows the country alongside the city name.
+- **Responsive Design**: Works seamlessly on desktops, tablets, and mobile devices.
+- **Extensible**: Ready for additional features like 5-day forecasts or dark mode.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo 📸
 
-### `npm test`
+Here's how the app looks:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Example Output for Bogotá, Colombia**:
 
-### `npm run build`
+```
+Bogotá
+Colombia
+Temperature: 18°C
+Feels like: 17°C
+Humidity: 78%
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used 🛠️
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **ReactJS**: Frontend framework for building UI components.
+- **Axios**: For handling API requests.
+- **Lottie Animations**: Animated weather avatars.
+- **CSS**: For styling and responsiveness.
+- **OpenWeatherMap API**: For fetching real-time weather data.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Setup Instructions ⚙️
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
+- Node.js and npm installed on your machine.
+- OpenWeatherMap API key. [Sign up here](https://home.openweathermap.org/users/sign_up) for a free API key.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Steps to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/<repository-name>.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd <studentId>_comp3123_labtest2
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
+   ```
+   REACT_APP_WEATHER_API_KEY=your_api_key
+   ```
+5. Start the development server:
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## How to Use 🖱️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Enter the name of a city in the search bar.
+2. Click "Search" or press `Enter`.
+3. View the weather details, including:
+   - Temperature
+   - Weather description
+   - Animated avatar representing the weather
+   - Country name below the city
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Folder Structure 📂
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+src/
+├── animations/        # JSON files for Lottie animations
+├── components/        # React components
+│   ├── WeatherApp.jsx
+│   └── WeatherCard.jsx
+├── styles.css         # Styling for the app
+├── App.js             # Main app entry
+└── index.js           # React entry point
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Future Enhancements ✨
 
-### Making a Progressive Web App
+- **5-Day Forecast**: Extend the app to show weather predictions.
+- **Dark Mode**: Add a toggle for light/dark themes.
+- **User Favorites**: Save frequently searched cities.
+- **Speech-to-Text Search**: Use the Web Speech API for voice-based searches.
+- **Geolocation**: Fetch weather for the user’s current location automatically.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## License 📜
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is open-source and available under the [MIT License](LICENSE).
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments ❤️
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **OpenWeatherMap**: For providing free API access.
+- **LottieFiles**: For beautiful and lightweight animations.
