@@ -15,22 +15,6 @@ A simple, user-friendly weather application built with **ReactJS** that allows u
 
 ---
 
-## Demo 📸
-
-Here's how the app looks:
-
-**Example Output for Bogotá, Colombia**:
-
-```
-Bogotá
-Colombia
-Temperature: 18°C
-Feels like: 17°C
-Humidity: 78%
-```
-
----
-
 ## Technologies Used 🛠️
 
 - **ReactJS**: Frontend framework for building UI components.
@@ -110,7 +94,9 @@ src/
 
 ## License 📜
 
-This project is open-source and available under the [MIT License](LICENSE).
+Beetle Labs Inc. 🪲
+Samuel Gallego Rivera.
+GreenConcepts Inc. 🍋‍🟩
 
 ---
 
